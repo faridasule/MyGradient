@@ -1,0 +1,59 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  max-width: 100vw;
+  height: 80vh;
+}
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  height: 26px;
+  place-items: center;
+  padding: 10px 20px;
+}
+#pre-btn {
+  position: absolute;
+  top: 50%;
+}
+
+#nxt-btn {
+  position: absolute;
+  top: 50%;
+  right: 0%;
+}
+.souce {
+  font-size: 2rem;
+}
+div a {
+  text-decoration: none;
+}
+.fa {
+  color: white;
+  font-size: 48px;
+  background-color: rgba(0, 0, 0, 0.185);
+  padding: 30px 20px;
+}
+.colors {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+footer {
+  text-align: center;
+  font-size: 1rem;
+}
+footer i {
+  color: red;
+  font-size: 2rem;
+}
+footer a {
+  text-decoration: none;
+  color: black;
+}
